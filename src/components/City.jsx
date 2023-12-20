@@ -28,9 +28,9 @@ function City() {
 
   return (
       <div>
-        <h1>City {id}</h1>
-        <p>lat: {lat}</p>
-        <p>lng: {lng}</p>
+        <h1>City: {id}</h1>
+        <div>lat: {lat}</div>
+        <div>lng: {lng}</div>
       </div>
     // <div className={styles.city}>
     //   <div className={styles.row}>
