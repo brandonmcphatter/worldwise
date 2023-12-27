@@ -47,54 +47,6 @@
         "lng": 2.3522219
       },
       "id": 73930384
-    },
-    {
-      "cityName": "London",
-      "country": "United Kingdom",
-      "emoji": "🇬🇧",
-      "date": "2026-10-31T15:59:59.138Z",
-      "notes": "",
-      "position": {
-        "lat": 51.5073219,
-        "lng": -0.1276474
-      },
-      "id": 73930385
-    },
-    {
-      "cityName": "New York",
-      "country": "United States",
-      "emoji": "🇺🇸",
-      "date": "2026-07-15T08:22:53.976Z",
-      "notes": "",
-      "position": {
-        "lat": 40.7127753,
-        "lng": -74.0059728
-      },
-      "id": 17806752
-    },
-    {
-      "cityName": "Tokyo",
-      "country": "Japan",
-      "emoji": "🇯🇵",
-      "date": "2026-02-12T09:24:11.863Z",
-      "notes": "",
-      "position": {
-        "lat": 35.6894875,
-        "lng": 139.6917064
-      },
-      "id": 98443199
-    },
-    {
-      "cityName": "Sydney",
-      "country": "Australia",
-      "emoji": "🇦🇺",
-      "date": "2025-12-31T23:59:59.138Z",
-      "notes": "",
-      "position": {
-        "lat": -33.8688197,
-        "lng": 151.2092955
-      },
-      "id": 73930382
     }
   ]
 }
