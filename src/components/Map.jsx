@@ -9,7 +9,7 @@ import Button from "./Button.jsx";
 
 function Map() {
     const {cities} = useCities();
-    const [mapPosition, setMapPosition] = useState([cities[0].position.lat, cities[0].position.lng]);
+    const [mapPosition, setMapPosition] = useState(["40.7", "-73.9"]);
     const {
         isLoading: isLoadingPosition,
         position: geoLocationPosition,
@@ -35,7 +35,7 @@ function Map() {
             {isLoadingPosition ? <p>Loading...</p> : 'Use Your Position'}
             <MapContainer className={styles.map}
                           center={mapPosition}
-                          zoom={10}
+                          zoom={8}
                           scrollWheelZoom={true}>
                 <TileLayer
                     attribution='&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
