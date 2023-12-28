@@ -12,7 +12,7 @@ import City from "./components/City.jsx";
 import Form from "./components/Form.jsx";
 import {CitiesProvider } from "./contexts/CitiesContext.jsx";
 
-export default function App() {
+function App() {
 
     return (
         <CitiesProvider>
@@ -35,4 +35,6 @@ export default function App() {
         </CitiesProvider>
     )
 }
+
+export default App;
 
