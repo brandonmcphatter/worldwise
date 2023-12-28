@@ -6,6 +6,7 @@ import {useCities} from "../contexts/CitiesContext.jsx";
 import {useGeolocation} from "../hooks/useGeoLocation.js";
 import {useURLPosition} from "../hooks/useURLPosition.js";
 import Button from "./Button.jsx";
+import SpinnerFullPage from "./SpinnerFullPage.jsx";
 
 function Map() {
     const {cities} = useCities();
@@ -32,7 +33,7 @@ function Map() {
     return (
         <div className={styles.mapContainer}>
             {!geoLocationPosition && <Button type='position' onClick={getPosition}>Get my position</Button>}
-            {isLoadingPosition ? <p>Loading...</p> : 'Use Your Position'}
+            {isLoadingPosition ? <SpinnerFullPage/> : ''}
             <MapContainer className={styles.map}
                           center={mapPosition}
                           zoom={8}
