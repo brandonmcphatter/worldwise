@@ -1,5 +1,4 @@
 import {createContext, useContext, useReducer} from "react";
-import user from "../components/User.jsx";
 
 // created context
 const AuthContext = createContext(undefined);
@@ -41,7 +40,6 @@ const FAKE_USER = {
 // provider for authentication throughout app
 function AuthProvider({children}) {
     const [{user, isAuthenticated}, dispatch] = useReducer(reducer, initialState, undefined);
-
     function login(email, password) {
         if (email === FAKE_USER.email && password === FAKE_USER.password) {
             dispatch({type: 'login', payload: FAKE_USER})
